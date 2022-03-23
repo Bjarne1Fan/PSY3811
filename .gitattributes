@@ -12,6 +12,7 @@
 # Unity strangeness
 *.asc filter=lfs diff=lfs merge=lfs -text
 *.tga filter=lfs diff=lfs merge=lfs -text
+*.unity filter=lfs diff=lfs merge=lfs -text
 
 # Sound 
 *.png filter=lfs diff=lfs merge=lfs -text
