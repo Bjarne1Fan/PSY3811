@@ -11,8 +11,10 @@
 *.gch
 *.pch
 
-# Unity sim data
-*.bin
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
 
 # Fortran module files
 *.mod
@@ -28,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+**/.idea/
+**/assets/
+**/library/
