@@ -8,11 +8,12 @@ namespace Score
     public class Task: MonoBehaviour
     {
         public int _points;
-        protected bool _complete;
+        protected bool _complete = false;
+        protected bool _failed = false;
         public string taskTitle;
         public string taskDescription;
 
-        private void Start()
+        protected virtual void Start()
         {
         }
 
@@ -24,6 +25,16 @@ namespace Score
         public void CompleteTask()
         {
             _complete = true;
+        }
+
+        public bool IsFailed()
+        {
+            return _failed;
+        }
+
+        public void FailTask()
+        {
+            _failed = true;
         }
 
         public int GetPoints()

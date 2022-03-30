@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6342496970644232526}
   - component: {fileID: 7555849203900633388}
   m_Layer: 0
-  m_Name: GoalParticleSystem
+  m_Name: FailParticles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -223,7 +223,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 0.9538751, b: 0.514151, a: 1}
+      maxColor: {r: 0.24528301, g: 0, b: 0.0105809085, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
